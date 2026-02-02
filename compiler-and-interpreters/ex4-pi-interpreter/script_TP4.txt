@@ -1,0 +1,20 @@
+pi = 3.141592;
+est = 0;
+i = 1;
+s = 1;
+
+boucle 100 {
+    t = inv ( i * i );
+    t = t * s;
+    est = est + t;
+    p2 = racine ( est * 12 );
+
+    afficher p2;
+    aff_ral;
+
+    afficher pi + ( p2 * -1 );
+    aff_ral;
+
+    s = s * -1;
+    i = i + 1;
+}

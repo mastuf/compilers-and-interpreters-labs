@@ -1,0 +1,9 @@
+a = 5 + 3;
+b = inv 10;
+afficher a;
+afficher b;
+c = a * ( b + 2 );
+afficher c;
+aff_ral;
+a = 2 * ( 3 + b ) + c;
+afficher a;
